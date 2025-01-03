@@ -24,4 +24,4 @@ step 8: convert untracked files to tracked files
 step 9: check status. Command: git status
 
 step 10: push to cloud repo
-	Command: git push -u origin <branch name>z
+	Command: git push -u origin <branch name>
