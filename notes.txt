@@ -13,7 +13,7 @@ step 5: configure user and email to local repo
 
 step 6: add remote/cloud repo to local repo
 	
-	Commanf: git remote add origin <http path>
+	Command: git remote add origin <http path>
 
 step 7: git pull origin <branch name> 
 
