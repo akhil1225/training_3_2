@@ -1,0 +1,108 @@
+step 1: create a github account
+
+step 2: create a repo in github
+
+step 3: open terminal in vs code
+
+step 4: init git in a local repo. Command : "git init"
+
+step 5: configure user and email to local repo
+	
+	Commands: git config --global user.name ""
+		  git config --global user.mail ""
+
+step 6: add remote/cloud repo to local repo
+	
+	Command: git remote add origin <http path>
+
+step 7: git pull origin <branch name> 
+
+step 8: convert untracked files to tracked files
+	Commands: git add .
+		  git commit -m "<some message>"
+
+step 9: check status. Command: git status
+
+step 10: push to cloud repo
+	Command: git push -u origin <branch name>
+
+
+what is JavaScript?
+	It is a object-based programming language, used to convert static pages into dynamic 	pages.
+Datatypes in JS:
+	primitive: number, string, boolean, undefined, null, big int, symbol
+		=> immutable
+		=> it can store single values
+
+	non - primitive: class, object, array, function, map, set, 
+		=> mutable
+		=> can store multiple values
+
+Strings: sequence of characters stored in double or single quotes or backticks(templete literals)
+	ex: var username = "Allu Arjun";
+	    let title = 'Super star'
+		const net_worth = `123445`;
+	
+Boolean: true/false
+
+Numbers: integers, float, decimal, exponential, etc...
+
+Undefined: variable is initialized but never assigned a value.
+
+Null: null is a absence of object or empty space
+ q. what is the retuen type of "null" : object
+
+
+Operators:
+    Operators are special symbols which are used to perform operations on variables of number datatype
+    ex: 2 + 2
+
+
+
+1. Unary
+2. Binary
+3. Ternary (condn? ifTrue : ifFalse)
+
+1.1 Arithmetic opetators
+1.2 Assignment operators
+1.3 Relational operators
+1.4 Logical operators
+
+1.1 Arithmetic :- which performs operations such as 
+                            1. Addition
+                            2. Substraction
+                            3. Multiplication
+                            4. Division
+                            5. Modulus
+                            6. Exponential
+                            7. Increment
+                            8. Decrement
+
+1.2 Assignment operators :-     
+                    1. =
+                    2. += 
+                    3. -=
+                    4. %= 
+                    5. /= 
+                    6. *=
+                    7 **=
+
+1.3 Relational operators :-
+                ==, ===, <=, >=, !=, <, >
+
+1.4 Logical operators :-
+                &&, ||, !
+            && - both lhs and rhs should be true
+            || - any one of lhs or rhs can be true
+            ! - makes false if true and vice versa
+
+**************************************************
+if
+if else
+if eleif else
+switch
+Ternary
+
+if : 
+    when only one condition if there then, if can be used
+    if block will only work for true statements
