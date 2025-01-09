@@ -106,3 +106,26 @@ Ternary
 if : 
     when only one condition if there then, if can be used
     if block will only work for true statements
+
+Functions:
+    - Function is a building block of JavaScript
+    - Function is a block of code which is used to execute specfic task
+    - Function is non - primitive data type
+    - Function can be reusable
+
+    syntax: function func_name(optional parameters){
+                //statements
+            }
+            function(arguments)
+    
+    - JS will not throw any errors if no parameters are defined and arguments are given when the function is called.
+
+    Tpyes of functions:
+    ******************
+        1. Named function
+        2. Anonymous function
+        3. Function expression
+        4. Immediate invoke function expression
+        5. Arrow function
+        6. Higher order function
+        7. Callback function
