@@ -122,10 +122,20 @@ Functions:
 
     Tpyes of functions:
     ******************
-        1. Named function
-        2. Anonymous function
+        1. Named function - function is having a name inviked with 
+        2. Anonymous function - 
         3. Function expression
         4. Immediate invoke function expression
         5. Arrow function
-        6. Higher order function
-        7. Callback function
+        6. Higher order function - this is a function that recieves another function as arguments or values
+        7. Callback function - callback function is a function which is passed as an argument to another function
+explicit return :- explicitly we have to give a keyword called return 
+explicit return is possible in both 
+
+- no statements will be executed afte a return statement is written
+
+- map() method in JS is a higher order function that accepts another callback function for iterating through a sequence.
+
+Closure: 
+    Closure is a memory created when functions are bundled together or nested each other by giving accessibility 
+

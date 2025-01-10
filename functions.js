@@ -22,8 +22,33 @@
 // let x = _ => console.log("Arrow function") //replace _ with () if any parameters are neeeded.
 // x()
 
-let x = (a, b) => {return a*b}
-console.log(x(5,5));
+// let x = (a, b) => {return a*b}
+// console.log(x(5,5));
 
-let y = (a, b) => a+b;
-console.log(y(100, 200));
+// let y = (a, b) => a+b;
+// console.log(y(100, 200));
+
+// function hof(a){
+//     return a;
+// }
+// let x = hof(function(){return  "This is a callback function"});
+// console.log(x)
+
+// let users = ["Manoj", "Asif", "Varshith", "Tanuja"]
+
+// users.map(function myFunc(user){ // can either be an anonymous function or an arrow function...
+//     console.log(user);
+// })
+
+var a = 10;
+let b = 45;
+function x(){
+    var user = "Koushik";
+    let company = "CongniFyz";
+    const sal = "35000.00";
+    console.log(user);
+    console.log(company);
+    console.log(sal);
+    console.log(a, b);
+}
+x();
