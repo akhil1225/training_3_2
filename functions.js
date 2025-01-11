@@ -40,15 +40,55 @@
 //     console.log(user);
 // })
 
-var a = 10;
-let b = 45;
+// var a = 10;
+// let b = 45;
+// function x(){ 
+//     var user = "Koushik";
+//     let company = "CongniFyz";
+//     const sal = "35000.00";
+//     console.log(user);
+//     console.log(company);
+//     console.log(sal);
+//     console.log(a, b);
+// }
+// x();
+
+// function p() {
+//     let a = 20;
+//     let b = 30;
+//     function y(){
+//         let p = "js";
+//         let q = "ReactJS";
+//         console.log(p, q);
+//         function z(){
+//             const username = "Akhilendra";
+//             console.log(username);
+//         }
+//         z() 
+//     }
+//     y()
+//     console.log(a, b);
+// }
+
+// p();
+
 function x(){
-    var user = "Koushik";
-    let company = "CongniFyz";
-    const sal = "35000.00";
-    console.log(user);
-    console.log(company);
-    console.log(sal);
+    let a = 10;
+    const b = 20;
     console.log(a, b);
+    function y(){
+        let p = "js";
+        var q = "ReactJS";
+        console.log(p, q);
+        function z(){
+            const username = "Akhil";
+            console.log(username);
+            console.log(a);
+            console.log(q);
+        }
+        z()
+    }
+    y()
 }
-x();
+x()
+
