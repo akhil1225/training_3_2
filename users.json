@@ -1,0 +1,14 @@
+{
+    "userData" : "sam",
+    "age" : 25,
+    "userArray" : [
+        {
+            "name" : "Koushik",
+            "city" : "Eluru"
+        },
+        {
+            "name": "Vamshi",
+            "city" : "Khammam"
+        }
+    ]
+}

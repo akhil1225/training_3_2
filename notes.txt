@@ -139,3 +139,44 @@ explicit return is possible in both
 Closure: 
     Closure is a memory created when functions are bundled together or nested each other by giving accessibility 
 
+Arrays:
+*******
+    
+
+JSON :-
+********
+ - JSON stands for JavaScript Object Notation
+ - it is a javascript technique used to transfer data from client to server and from server to client
+ JS object:
+ **********
+    let a = {
+        name : "value",
+        age : 25
+    }
+ JSON object:
+ ***********
+ {
+    "name" : "value",
+    "age" : 25
+ }
+
+JSON methods:-
+**************
+    1. JSON.stringify() - used to convert js object to JSON object.
+    2. JSON.parse() - used to convert JSON object to js object
+
+Asynchronous in Javascript:-
+****************************
+    - to perform multiple tasks at the same time
+    
+    1. setTimeout() - it is a web api used to perform async opeations with certain timeouts
+       syntax:  setTimeout(callbackfunc, timeout)
+
+    2. setInterval() - it is a web api to perform async operations at 
+
+    3. promise - it is an object which represents eventual completion
+            states of promise : 
+                1. pending state
+                2. fulfilled state
+                3. rejected state
+Note - Javascript, by default is Synchronous(single threaded)
