@@ -172,11 +172,20 @@ Asynchronous in Javascript:-
     1. setTimeout() - it is a web api used to perform async opeations with certain timeouts
        syntax:  setTimeout(callbackfunc, timeout)
 
-    2. setInterval() - it is a web api to perform async operations at 
+    2. setInterval() - it is a web api to perform async operations at every time interval operation.
 
-    3. promise - it is an object which represents eventual completion
+    3. promise - it is an object which represents eventual completion or failures of an async operation.
             states of promise : 
                 1. pending state
                 2. fulfilled state
                 3. rejected state
+            syntax: let x = new Promise((resolve, reject)=> {});
+            
+            - to execute the promise, we have instance methods:
+                1. then() - it isused to execute success or fulfilled state results
+                2. catch() - it is used to execute rejected state results.
+                3. finally() - once promise is settled, it will print the 
+
+
+    4. async & await
 Note - Javascript, by default is Synchronous(single threaded)
