@@ -188,4 +188,39 @@ Asynchronous in Javascript:-
 
 
     4. async & await
+        async - this keyword converts synchronous functions into an asynchronous and starts the promise
+
+        await - this keyword makes the functionto wait till the promise completes.
+
+        note - await keyword is alwaysused with the async keyword.
+
+
+
 Note - Javascript, by default is Synchronous(single threaded)
+
+CREATE - POST
+READ - GET
+UPDATE - PUT
+DELETE - DELETE
+
+Document Object Model:-
+----------------------
+    -DOM is a web api used to manipulate the html content.
+    -DOM is used to add, remove, update the content in the html document.
+
+DOM Methods:-
+-------------
+    1. document.getElementById(""); - used to select an html element based on its ID attribute value.
+                                    - with ID attribute, we can select only one element(unique element).
+
+    2. document.getElementByClassName(""); - used to select an html element based on its class attribute.
+
+    3. document.getElementByName(""); - used to select an html element based on their tag names.
+
+    4. document.getElementByTagName(""); - used to select an html element based on their name attributes.
+
+    - these below methods  used to select html elements based on CSS selectors.
+
+    6. document.querySelector(); - use # for IDs and . for classes 
+    5. document.querySelectorAll(); -  use # for IDs and . for classes
+

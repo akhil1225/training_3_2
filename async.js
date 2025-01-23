@@ -52,17 +52,51 @@
 
 // fetchUsers();
 
-function fetchUsers(){
-    let response = fetch("https://jsonplaceholder.typicode.com/photos");
+// function fetchUsers(){
+//     let response = fetch("https://jsonplaceholder.typicode.com/users");
 
-    response.then(res=>{
-        // console.log(res);
-        // console.log(res.json());
-        return res.json().then(data=>{
-            console.log(data);
-        })
-    })
-    .catch(err=>console.log(err))
-}
+//     response.then(res=>{
+//         // console.log(res);
+//         // console.log(res.json());
+//         return res.json().then(data=>{
+//             console.log(data);
+//         })
+//     })
+//     .catch(err=>console.log(err))
+// }
 
-fetchUsers();
+// fetchUsers();
+
+// function demo(){
+//     console.log("Start");
+//     console.log(10);
+//     console.log(20);
+
+//     console.log(30);
+//     console.log("End");
+// }
+// demo();
+
+// let p = new Promise((resolve, reject)=>{
+//     setTimeout(()=>{
+//         resolve("Success");
+//     }, 4000)
+// });
+
+// async function demo(){
+//     console.log("Start");
+//     let x = await p;
+//     console.log(x);
+    
+//     console.log("End");
+// }
+
+// demo()
+
+// async function fetchUsers(){
+//     console.log(await(await fetch("https://jsonplaceholder.typicode.com/users")).json());
+// }
+
+// fetchUsers();
+document.
+console.log();
