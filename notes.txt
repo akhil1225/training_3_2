@@ -224,3 +224,10 @@ DOM Methods:-
     6. document.querySelector(); - use # for IDs and . for classes 
     5. document.querySelectorAll(); -  use # for IDs and . for classes
 
+
+Events in DOM:-
+****************
+
+Dynamic creation of html elements in JS:-
+-----------------------------------------
+
