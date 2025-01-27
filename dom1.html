@@ -6,12 +6,41 @@
     <title>Document</title>
 </head>
 <body>
-    <form>
+    <!-- <form>
         <input type="text" placeholder="Name" id="uName">
         <input type = "email" placeholder="Email" id = "uMail">
         <input type = "password" placeholder="Password" id = "uPass"> 
-        <button type="button" onclick="submit">Submit</button>    
+        <button type="button" onclick="submit()">Submit</button>    
+    </form> -->
+
+    <!-- <div id="mainBlock">
+        <div id = "topBlock">
+            <img src="./spidey.jpg">
+        </div>
+        <div class="bottomBlock">
+
+        </div>
+    </div> -->
+
+    <form action="submit">
+        <div class="formgroup">
+            <label for="userN">UserName: </label>
+            <input type = "text" id="userN" placeholder="Enter username">
+        </div>
+        <div class="formgroup">
+            <label for="userP">Password: </label>
+            <input type = "password" id="userP" placeholder="Enter password">
+        </div>
+        <div class="formgroup">
+            <label for="radioB" >Gender: </label>
+            <input type="radio" value="Male" name="Gender"><span>Male</span>
+            <input type="radio" value="Female" name="Gender"><span>Female</span>
+            <input type="radio" value="Other" name="Gender"  ><span>Other</span>
+        </div>
+        <input type="submit">
     </form>
+
+    
 
 
     <script src="./dom1.js" ></script>
