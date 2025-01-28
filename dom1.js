@@ -67,21 +67,35 @@ form.addEventListener("submit", event=>{
     console.log("Form Submitted");
     let un = userName.value;
     let up = userPassword.value;
-    let gender = ""
+    let ugender = ""
 
-    for( let i =0; i<gender.length-1;i++){
+    for( let i =0; i<=gender.length-1;i++){
         if(gender[i].checked == true){
-            gen += gender[i].value
+            ugender += gender[i].value;
         }
     };
 
     let userDetails ={
         username: un,
         password: up,
-        gen: gender
+        usergender: ugender
     }
 
     console.log(userDetails);
     sessionStorage.setItem("userDetails", JSON.stringify(userDetails));
+})
+
+let check = document.getElementById("check");
+let show = document.getElementById("show")
+
+check.addEventListener("click",(event)=>{
+    
+    if(event.target.checked==true){
+        userPassword.setAttribute("type", "text");
+        show.innerText = "Hide Password"
+    }else{
+        userPassword.setAttribute("type", "password");
+        show.innerText = "Show Password";
+    }
 })
 
