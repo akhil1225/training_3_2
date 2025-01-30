@@ -231,3 +231,36 @@ Events in DOM:-
 Dynamic creation of html elements in JS:-
 -----------------------------------------
 
+
+
+
+
+
+
+
+
+Modules:-
+---------
+1. Named Modules
+2. Default Modules
+
+
+Named Modules:- 
+    Definenly while importing should use the same name that you are defining exactly with
+    You can export as many modules of code that you want.
+
+Default Modules:-
+    While importing can use any name that you want. You can export only one
+    modules of code in one source file. You should use the default keyword while exporting.
+
+
+
+Create a signup form that contains
+username(!empty),
+email(@, !empty),
+password(should be 6) and
+confirm password(same, !empty),
+once you click on submit button, a alert Should be
+popped up on you screen "form is submitted
+successfully" if and only if all the validations are
+correct.
