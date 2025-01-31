@@ -255,12 +255,22 @@ Default Modules:-
 
 
 
-Create a signup form that contains
-username(!empty),
-email(@, !empty),
-password(should be 6) and
-confirm password(same, !empty),
-once you click on submit button, a alert Should be
-popped up on you screen "form is submitted
-successfully" if and only if all the validations are
-correct.
+Create a signup form that contains username(!empty), email(@, !empty),
+password(should be 6) and confirm password(same, !empty), once you click 
+on submit button, a alert Should be popped up on you screen "form is 
+submitted successfully" if and only if all the validations are correct.
+
+Modules:-
+---------
+- Modules is just a file that contains JS related codes which can be shared between various files 
+ using the keywords "import" and "export".
+
+- modules are divided into two types:-
+        1. Common JS modules(server)
+        2. ES6 Modules - again divided into 2 types:-
+            1. Default export
+            2. Named export.
+    
+    1. Default export:- only one default export can be done per file.
+
+1. WHat is the difference between undefined, undeclared and null?
