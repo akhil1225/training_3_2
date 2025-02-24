@@ -1,0 +1,18 @@
+.flex-container{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    height: 100px;
+    align-items: center;
+    background: red;
+    
+}
+
+.item{
+    background-color: blue;
+    padding: 20px;
+    color: white;
+    
+    /* flex-grow: 1; */
+    flex-shrink:1 ;
+}
