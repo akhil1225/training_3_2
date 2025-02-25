@@ -1,0 +1,53 @@
+step 1: create a github account
+
+step 2: create a repo in github
+
+step 3: open terminal in vs code
+
+step 4: init git in a local repo. Command : "git init"
+
+step 5: configure user and email to local repo
+	
+	Commands: git config --global user.name ""
+		  git config --global user.mail ""
+
+step 6: add remote/cloud repo to local repo
+	
+	Command: git remote add origin <http path>
+
+step 7: git pull origin <branch name> 
+
+step 8: convert untracked files to tracked files
+	Commands: git add .
+		  git commit -m "<some message>"
+
+step 9: check status. Command: git status
+
+step 10: push to cloud repo
+	Command: git push -u origin <branch name>
+
+
+what is JavaScript?
+	It is a object-based programming language, used to convert static pages into dynamic 	pages.
+Datatypes in JS:
+	primitive: number, string, boolean, undefined, null, big int, symbol
+		=> immutable
+		=> it can store single values
+
+	non - primitive: class, object, array, function, map, set, 
+		=> mutable
+		=> can store multiple values
+
+Strings: sequence of characters stored in double or single quotes or backticks(templete literals)
+	ex: var username = "Allu Arjun";
+	    let title = 'Super star'
+		const net_worth = `123445`;
+	
+Boolean: true/false
+
+Numbers: integers, float, decimal, exponential, etc...
+
+Undefined: variable is initialized but never assigned a value.
+
+Null: null is a absence of object or empty space
+ q. what is the retuen type of "null" : object
